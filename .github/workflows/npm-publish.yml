@@ -38,4 +38,4 @@ jobs:
       run: npm install --global surge
       
     - name: Deploy to Surge
-      run: surge ./build defiant-tiger.surge.sh --token ${{ secrets.ABC }}  
+      run: surge ./build shahrukhDeploy.surge.sh --token ${{ secrets.ABC }}  
